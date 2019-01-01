@@ -1,0 +1,28 @@
+{
+  "name": "exemplo-node",
+  "version": "1.0.0",
+  "description": "Exemplo de projeto Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node index.test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermedelemos/exemplo-node.git"
+  },
+  "keywords": [
+    "node",
+    "exemplo"
+  ],
+  "author": "Guilherme de Lemos",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/guilhermedelemos/exemplo-node/issues"
+  },
+  "homepage": "https://github.com/guilhermedelemos/exemplo-node#readme",
+  "devDependencies": {
+    "tap-spec": "5.0.0",
+    "tape": "4.9.2"
+  }
+}
